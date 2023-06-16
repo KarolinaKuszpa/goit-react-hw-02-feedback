@@ -6,11 +6,21 @@
 .button {
   margin: 0 5px;
   padding: 10px 20px;
-  background-color: blue;
   color: #fff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+.buttonGood {
+  background-color: green;
+}
+
+.buttonNeutral {
+  background-color: blue;
+}
+
+.buttonBad {
+  background-color: red;
 }
 
 .button:hover {
